@@ -7,10 +7,11 @@
           flex-wrap: wrap;
           align-items: center;
           justify-content: space-between;
+					width: 85%;
           text-align: right;
           border: 1px solid #9bb7ec;
           border-radius: 1em;
-          margin-bottom: 1em;
+          /* margin-bottom: 1em; */
           padding: 1em;
         }
 
@@ -20,7 +21,8 @@
         }
 
         .header p {
-          font-size: 1.25em;
+					color: #9bb7ec;
+          font-size: 1em;
           font-weight: 500;
           margin: 1em;
         }
@@ -28,24 +30,25 @@
         .line-display {
           display: flex;
           min-width: 100%;
-          margin-bottom: 0.01em;
+          /* margin-bottom: 0.01em; */
+					text-align: left;
         }
 
         .title {
           color: yellow;
-          font-size: 1.5em;
+          font-size: 1em;
           font-weight: 700
         }
 
         .subtitle {
           color: #9bb7ec;
-          font-size: 1.25em;
+          font-size: 0.95em;
           font-weight: 700;
         }
 
         .item {
           color: #9bb7ec;
-          font-size: 1.1em;
+          font-size: 0.85em;
           font-weight: 700"
 
         }

@@ -86,9 +86,9 @@
     </tr>
   </tb>
 </table> -->
-<div align="center">
-  <img src="header.svg" width="800" alt="Header SVG" >
-</div>
+<!-- <div align="center"> -->
+<img src="header.svg" width="100%" alt="Header SVG" >
+<!-- </div> -->
 
 Nessa atividade, o desafio é elaborar a página inicial do **Instagram** usando **HTML5** e **CSS3**. É necessária a utilização do **flexbox**.
 
@@ -113,7 +113,7 @@ Nessa atividade, o desafio é elaborar a página inicial do **Instagram** usando
 ---
 ### **Perfil | About me**
 
-[![Profile Views Counter](https://komarev.com/ghpvc/?username=Franklin-Siqueira&color=blueviolet)](https://github.com/antonkomarev/github-profile-views-counter) 
+[![Profile Views Counter](https://komarev.com/ghpvc/?username=Franklin-Siqueira&color=blueviolet)](https://github.com/antonkomarev/github-profile-views-counter)
 
 #### **Contato | Contacts**
 
@@ -130,7 +130,7 @@ Nessa atividade, o desafio é elaborar a página inicial do **Instagram** usando
 
 ---
 #### **Design | Graphic Design**
-![Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=brown) 
+![Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=brown)
 ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=pink) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=blue)
 
@@ -147,7 +147,7 @@ Nessa atividade, o desafio é elaborar a página inicial do **Instagram** usando
 This sample code is released using the MIT license. For more information see the [LICENSE](https://github.com/Franklin-Siqueira/Impulso-JavaScript-Evolution/blob/master/assets/LICENSE.md) file.
 
 ---
-  
+
 <div style="display: flex; align-items: flex-end; justify-content: flex-end; text-align: right;">
   <h3 style="margin-right: 10px">Franklin Siqueira | 2022</h3>
   <a href="../../assets/img/favicons/favicon-32x32.png">
