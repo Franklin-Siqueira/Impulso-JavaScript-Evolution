@@ -3,7 +3,7 @@
  SPDX-License-Identifier: Apache-2.0
 -->
 <!-- Styling -->
-<style>
+<!-- <style>
   #container {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     margin-bottom: 1em;
     padding: 1em;
   }
-</style>
+</style> -->
 <!-- CABEÇALHO | HEADER -->
 <!-- <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; text-align: right; border: 1px solid #9bb7ec; border-radius: 1em; margin-bottom: 1em; padding: 1em;"> -->
 <!-- <div class="conteiner">
