@@ -1,0 +1,355 @@
+/**
+ * Copyright 2022 Franklin Siqueira.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /* background-color: rgb(57, 3, 95); */
+  background-color: rgb(243, 238, 247);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  color: #ffff;
+  background-color: #122A57;
+}
+
+footer {
+  background-color: #122A57;
+}
+
+footer .footer {
+  height: 10em;
+  justify-content: space-between;
+  color: #9bb7ec;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+/* div img {
+} */
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+.external-container {
+  height: 90vh;
+  width: 100%;
+  background-color: #122A57;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+}
+
+header .menu {
+  justify-content: space-between;
+}
+
+header .list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 260px;
+}
+
+.list-items li a {
+  color: #ffff;
+}
+
+header .logo {
+  border-radius: 50%;
+}
+
+.intro {
+  height: 90vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.intro .intro-text {
+  /* min-height: 200px; */
+  min-height: 12rem;
+}
+
+.intro-text h1 {
+  font-size: 4.2em;
+  font-weight: 900;
+  line-height: 0.9em;
+  letter-spacing: 0.005em;
+  /* margin-bottom: 0.1em; */
+  color: #122A57;
+}
+
+.intro-text-paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-button {
+  /* width: 40em; */
+  color: rgb(233, 171, 72);
+  background-color: #122A57;
+  border-radius: 1.2em;
+  margin: 0.9em;
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.text-button:hover {
+  /* font-size: 1.1em; */
+  color: rgb(191, 237, 100);
+}
+
+#who-we-are {
+  height: 90vh;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 1.5em; */
+  padding: 0.9em;
+  background-color: #9bb7ec;
+}
+
+#who-we-are h2 {
+  font-size: 2em;
+  color: #122A57;
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+/* MARCADOR */
+#who-we-are h2::before {
+  content: "";
+  height: 1em;
+  width: 0.25em;
+  margin-right: 0.25em;
+  margin-top: 0.1em;
+  background-color: #122A57;
+  position: relative;
+}
+
+/* PARÁGRAFOS @ #who-we-are */
+#who-we-are p {
+  width: 90%;
+  margin-bottom: 1em;
+}
+
+.list-services {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-services .service-item {
+  text-align: center;
+}
+
+.service-item {
+  min-width: 13em;
+  line-height: 3em;
+  font-size: 1.5em;
+}
+
+.service-item img {
+  width: 50%;
+  margin: auto;
+}
+
+.service-item p {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: antiquewhite;
+}
+
+.service-item .text-button {
+  margin-top: 0.05em;
+  background-color: rgb(255, 167, 26);
+  color: #122A57;
+  font-size: 0.6em;
+  font-weight: 700;
+}
+
+.service-item .text-button:hover {
+  background-color: rgb(255, 167, 26);
+  color: rgb(191, 237, 100);
+}
+
+#services {
+  flex-direction: column;
+}
+
+/* SERVICES | MARCADOR */
+#services h2::before {
+  content: "";
+  height: 1em;
+  width: 0.25em;
+  margin-right: 0.25em;
+  margin-top: 0.1em;
+  background-color: #9bb7ec;
+  position: relative;
+}
+
+#services h2 {
+  color: #9bb7ec;
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/* PLAN OPTIONS */
+#plan-options {
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.plan-list {
+  display: flex;
+  align-items: flex-end;
+}
+
+.plan-card {
+  /* flex: 1; */
+  border: 2px solid #9bb7ec;
+  border-radius: 0.4em;
+  padding: 1.5em;
+  margin: 0.9em;
+  min-width: 13em;
+  line-height: 1em;
+  font-size: 1em;
+}
+
+.plan-card h3 {
+  display: flex;
+  flex-direction: column;
+  color: #122A57;
+  margin-bottom: 0.9em;
+  margin-top: 1em;
+  /* text-align: center; */
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.plan-card h3::after {
+  content: "";
+  background-color: #9bb7ec;
+  width: 40%;
+  margin-top: 0.2em;
+  height: 0.07em;
+}
+
+.plan-card ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+.plan-card li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  line-height: 1.5em;
+  font-size: 1em;
+  font-weight: 500;
+  color: #122A57;
+}
+
+.plan-card li::before {
+  content: "";
+  background-color: #9bb7ec;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.4em;
+  border-radius: 0.05em;
+  /* height: 0.07em; */
+}
+
+.plan-card .p-inactive {
+  color: #bec6d4;
+  text-decoration: line-through;
+}
+
+.plan-card .text-button {
+  /* margin-top: 0.9em; */
+  /* margin-bottom: 1.5em; */
+  margin: auto;
+  background-color: rgb(255, 167, 26);
+  color: #122A57;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.plan-card .text-button:hover {
+  background-color: rgb(255, 167, 26);
+  color: rgb(191, 237, 100);
+}
+
+#plan-options h2 {
+  color: #9bb7ec;
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 992px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .intro {
+    flex-direction: column-reverse;
+  }
+  #who-we-are {
+    flex-direction: column-reverse;
+  }
+  #who-we-are img {
+    max-width: 620px;
+    margin: auto;
+  }
+  .list-services {
+    flex-direction: column;
+  }
+  .service-item img {
+    width: 50%;
+    margin: auto;
+  }
+  .plan-list {
+    flex-direction: column;
+  }
+  .plan-list .plan-card {
+    width: 90%;
+    max-width: 100%;
+    /* margin: auto; */
+  }
+}
