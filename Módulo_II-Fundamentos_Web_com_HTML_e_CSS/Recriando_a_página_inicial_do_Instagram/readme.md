@@ -2,8 +2,23 @@
  Copyright 2022 Franklin Siqueira.
  SPDX-License-Identifier: Apache-2.0
 -->
+<!-- Styling -->
+<style>
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    border: 1px solid #9bb7ec;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+  }
+</style>
 <!-- CABEÇALHO | HEADER -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; text-align: right; border: 1px solid #9bb7ec; border-radius: 1em; margin-bottom: 1em; padding: 1em;">
+<!-- <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; text-align: right; border: 1px solid #9bb7ec; border-radius: 1em; margin-bottom: 1em; padding: 1em;"> -->
+<!-- <div class="conteiner">
   <div>
     <img src="../../assets/img/dio/bootcamp_logo.png" width="50px">
   </div>
@@ -28,7 +43,7 @@
       Atividade | Desafio de Projeto | Criar Página Inicial do Instagram
     </h2>
   </div>
-</div>
+</div> -->
 
 <!-- <table style="border: 1px solid #9bb7ec; border-collapse: collapse; border-spacing: 0; margin-bottom: 20px;" width="100%">
   <th style="border: none">
@@ -71,6 +86,8 @@
     </tr>
   </tb>
 </table> -->
+
+<img src="header.svg" >
 
 Nessa atividade, o desafio é elaborar a página inicial do **Instagram** usando **HTML5** e **CSS3**. É necessária a utilização do **flexbox**.
 
