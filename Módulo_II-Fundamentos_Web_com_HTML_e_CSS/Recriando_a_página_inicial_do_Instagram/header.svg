@@ -19,7 +19,7 @@
           padding: 1em;
         }
       </style>
-      <div class="conteiner">
+      <div class="container">
         <div>
           <img src="../../assets/img/dio/bootcamp_logo.png" width="50px">
         </div>

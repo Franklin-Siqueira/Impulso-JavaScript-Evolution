@@ -86,8 +86,9 @@
     </tr>
   </tb>
 </table> -->
-
-<img src="header.svg" >
+<div align="center">
+  <img src="header.svg" width="800" alt="Header SVG" >
+</div>
 
 Nessa atividade, o desafio é elaborar a página inicial do **Instagram** usando **HTML5** e **CSS3**. É necessária a utilização do **flexbox**.
 
