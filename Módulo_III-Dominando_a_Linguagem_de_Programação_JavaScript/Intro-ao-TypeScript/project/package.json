@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript introdution example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Frankln",
+    "Siqueira",
+    "Dio",
+    "Impulse",
+    "Bootcamp",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "author": "Franklin Siqueira <franklinsiqueira@yahoo.com> (https://frank-lp.herokuapp.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

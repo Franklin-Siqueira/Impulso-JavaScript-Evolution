@@ -36,10 +36,71 @@ console.log(`\nFunction argument: ${argumentFunction}`);
 console.log(`Function argument passed value: ${argumentFunctionParameter}`);
 console.log("\nValue returned: ");
 
-// Debug and Error Handling
+// DOM Manipulation
 
-// Throw and return / try... catch
+// Methods
 
+// Selection
+
+document.getElementById('title');
+document.getElementsByName('title');
+document.getElementsByTagName('li');
+document.getElementsByClassName('title');
+
+document.querySelector('title');
+document.querySelectorAll('li .option');
+document.querySelectorAll('.option .optionExtra');
+
+// Creation, removal, adding and replacement
+
+document.createElement('element'); // Creation
+document.removeChild('element'); // Removal
+document.appendChild('element'); // Adding
+document.replaceChild('NewElement', 'OldElement'); // Replacement
+
+// Class manipulation examples
+
+// Consider:
+// '<div id="title" class="new-class">Any text...</div>'
+
+const myElement = document.getElementById('title');
+
+myElement.classList.add('new-style'); // Add new class new-style
+myElement.classList.remove('new-class'); // Remove class new-class
+// Add class new-class if it doesn't exist. Remove otherwise
+myElement.classList.toggle('any-class');
+
+// Result
+// '<div id="title" class="new-style any-class">Any text...</div>'
+
+// Add CSS
+
+document.getElementsByTagName('li').style.color = "blue";
+
+// Event types
+
+// mouseover, mouseout
+// click, dbclick
+// change, load
+
+myElement.addEventListener('click', anyCallBackFunction);
+
+// Directly on HTML
+
+// '<div onclick="anyCallBackFunction(this)" id="title" class="new-class">Any text...</div>'
+
+// <script> *
+  function anyCallBackFunction(id) {
+    id.innerHTML = "Changed!";
+  }
+// </script>
+
+
+
+
+
+
+//----------------------------------------------------
 // Returns a string
 const verifyPalindromeWithMethods = (wordString) => {
   if (!wordString) return "Return Invalid string!";
@@ -193,73 +254,5 @@ const replaceEvenNumbers = (numbersArray) => {
     return;
   }
 };
-// --------------------------------------------------------
-// Desafio Ataque, Pedra e Papel
-
-// ataque > pedra > papel
-// ataque && ataque = aniquilação
-// papel && papel = empate (ambos vencem)
-// pedra && pedra = ninguém ganha (sem ganhador)
-
-// let N = parseInt(gets());
-// let jogador1, jogador2;
-
-// for (let i = 0; i < N; i++) {
-//     jogador1 = gets().toLowerCase();
-//     jogador2 = gets().toLowerCase();            
-//     if(jogador1 === "ataque" && jogador2 === "ataque") print("Aniquilacao mutua");
-//     else if (jogador1 === "papel" && jogador2 === "papel") print("Ambos venceram");
-//     else if (jogador1 === "ataque") print("Jogador 1 venceu");
-//     else if (jogador2 === "ataque") print("Jogador 2 venceu");
-//     else if (jogador2 === "papel") print("Jogador 1 venceu");
-//     else if (jogador1 === "papel") print("Jogador 2 venceu");
-//     else print("Sem ganhador");
-
-// Variação possível:
-
-//     if(jogador1 === "ataque" && jogador2 === "ataque") print("Aniquilacao mutua");
-//     else if (jogador1 === "papel" && jogador2 === "papel") print("Ambos venceram");
-//     else if (jogador1 === "ataque" || jogador2 === "papel") print("Jogador 1 venceu");
-//     else if (jogador2 === "ataque" || jogador1 === "papel") print("Jogador 2 venceu");
-//     else print("Sem ganhador");
-// ----------------------------------------------------------
-// Desafio Jogo 2
-
-// Tri-du é um jogo de cartas derivado do popular jogo de Truco. O jogo utiliza um baralho normal de 52 cartas, com treze cartas de cada naipe, mas os naipes são ignorados. Apenas o valor das cartas,considerados como inteiros de 1 a 13, são utilizados.
-
-// No jogo, cada jogador recebe três cartas. As regras são simples:
-
-//     Um trio (três cartas de mesmo valor) ganha de uma dupla (duas cartas de mesmo valor).
-//     Um trio formado por cartas de maior valor ganha de um trio formado por cartas de menor valor.
-//     Uma dupla formada por cartas de maior valor ganha de uma dupla formada por cartas de menor valor.
-
-// Note que o jogo pode não ter ganhador em muitas situações; nesses casos, as cartas distribuídas são devolvidas ao baralho, que é embaralhado e uma nova partida é iniciada
-
-// Um jogador já recebeu duas das cartas que deve receber, e conhece seus valores. Sua tarefa é escrever um programa para determinar qual o valor da terceira carta que maximiza a probabilidade de esse jogador ganhar o jogo.
-// Entrada
-
-// A entrada consiste de uma ´unica linha que contém dois inteiros, A (1 ≤ A ≤ 13) e B (1 ≤ B ≤ 13) indicando os valores das duas primeiras cartas recebidas.
-// Saída
-
-// Seu programa deve produzir uma única linha com um inteiro representando o valor da carta que maximiza a probabilidade de o jogador ganhar a partida.
- 
-// Exemplo de Entrada 	Exemplo de Saída
-
-// 10 7                       10
-
-// 2 2                        2 
-
-// let [A, B] = gets().split(" ").map(Number);
-// let C;
-
-// if(A > B){
-//   C = A;
-// }
-// else{
-//   C = B;
-// }
-// print(C);
-
-// Evaluate arguments (MUST be placed at the bottom of the script)
 
 eval(`${argumentFunction}("${argumentFunctionParameter}")`);

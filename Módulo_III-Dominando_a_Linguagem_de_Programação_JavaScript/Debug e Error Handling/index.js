@@ -27,6 +27,15 @@ var classTopicTags = [
   "split()",
   "operators",
   "arrow functions",
+  "debug",
+  "error handling",
+  "ECMAScript error",
+  "DOMException",
+  "try... catch",
+  "throw",
+  "apply",
+  "bind",
+  "call",
 ];
 var topicDefinition =
   "Palíndromo, do grego palin (novo) e dromo (percurso), é toda palavra ou frase que pode ser lida de trás pra frente e que, independente da direção, mantém o seu sentido. Também chamadas de anacíclicas, elas devem ser lidas considerando-se apenas as letras. Isso quer dizer que não se consideram acentos e, no caso das frases, também não se deve considerar a pontuação e o espaço entre as palavras. Experimente com a frase 'Socorram-me, subi no ônibus em Marrocos'.";
